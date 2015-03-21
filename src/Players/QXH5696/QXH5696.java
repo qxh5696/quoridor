@@ -22,7 +22,6 @@ public class QXH5696 implements PlayerModule {
     private static final int MAX_COLUMNS = 9;
     private static final Node[][] board = new Node[MAX_ROWS][MAX_COLUMNS];
     private int playerId;
-    //private PlayerMove playerMove;
     //
 
     /**
