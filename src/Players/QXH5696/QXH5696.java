@@ -34,16 +34,14 @@ public class QXH5696 implements PlayerModule {
      */
     @Override
     public void init(Logger logger, int playerId, int numWalls, Map<Integer, Coordinate> playerHomes) {
-        System.out.println("NUMWALLS (INIT) : " + numWalls);
-        this.numWalls = numWalls; //<- when i manually change this to 5, it works just fine.
+        this.numWalls = numWalls;
         Coordinate coor;
         this.playerId = playerId;
-        //System.out.println("PLAYER ID (INIT): " + playerId);
         this.logger = logger;
         if (this.playerId == 1){
             coor = new Coordinate(8,4);
             this.playerHomes.put(playerId, coor);
-        }/**else if (this.playerId == 2){
+        }else if (this.playerId == 2){
             coor = new Coordinate(0,4);
             this.playerHomes.put(playerId, coor);
         }else if (this.playerId == 3){
@@ -52,7 +50,7 @@ public class QXH5696 implements PlayerModule {
         }else{
             coor = new Coordinate(4,8);
             this.playerHomes.put(playerId, coor);
-        }*/
+        }
         this.playerWalls.put(playerId, this.numWalls);
         for (int i = 0; i < board.length; i++){
             for(int j = 0; j < board.length; j++){
@@ -96,8 +94,6 @@ public class QXH5696 implements PlayerModule {
      */
     @Override
     public void lastMove(PlayerMove playerMove) {
-        //this.playerId = playerMove.getPlayerId();
-        //System.out.println("PLAYER ID IN LASTMOVE: " + this.playerId);
         if (playerMove.isMove() == true) {
             Coordinate newCor = board[playerMove.getEndRow()][playerMove.getEndCol()].getLocation();
             playerHomes.put(playerMove.getPlayerId(), newCor);
@@ -198,18 +194,6 @@ public class QXH5696 implements PlayerModule {
         List<Node> list = searchBFS(start, end);
         Coordinate temp;
         for (int i = 0; i < list.size(); i ++){
-            //When the .jar file used "==" instead of ".equals"
-            /**
-            temp = list.get(i).getLocation();
-            if (temp.equals(start)){//checks to see if the temp coor matches the start coor, but adds start coor
-                shortestPath.add(start);
-            }
-            else if(temp.equals(end)){//checks to see if the temp coor matches the end coor, but adds end coor
-                shortestPath.add(end);
-            }
-            else {
-                shortestPath.add(temp);
-            }*/
             shortestPath.add(list.get(i).getLocation());
         }
         return shortestPath;
@@ -224,7 +208,10 @@ public class QXH5696 implements PlayerModule {
     @Override
     public int getWallsRemaining(int i) {
         if(!(playerHomes.containsKey(i))){
-            if (i == 2){
+            if (i == 1){
+                playerWalls.put(i, this.numWalls);
+            }
+            else if (i == 2){
                 playerWalls.put(i, this.numWalls);
             }else if (i == 3){
                 playerWalls.put(i, this.numWalls);
