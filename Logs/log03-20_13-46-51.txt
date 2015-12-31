@@ -1,0 +1,181 @@
+03-20 13:46:51 Engine Quoridor Java Part 1 Client v1.0.3 by RIT CS Department starting up
+03-20 13:46:51 Engine Loading player QXH5696
+03-20 13:46:51 Engine Loaded player QXH5696
+03-20 13:46:51 Engine Running part 1 program with 1 fake players added.
+      PRE_MOVES should cycle over 2 players.
+03-20 13:46:51 Engine Calling init() for player 1
+03-20 13:46:51 Engine Calling init() for reference player
+03-20 13:46:51 P1T_003 doTest called.
+03-20 13:46:51 P1T_003  No problems w/player ID.
+03-20 13:46:52 P1T_003  No problems w/shortest path.
+03-20 13:46:52 P1T_003  No problems w/getting neighbors.
+03-20 13:46:52 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-20 13:46:52 P1T_003  Discrepancy calling getPlayerLocation(2): Player's value = null; Correct value = [0, 4].
+03-20 13:46:52 P1T_003  Discrepancies with player game state.
+03-20 13:46:52 Engine Getting preMove from list
+03-20 13:46:52 Engine Move is PlayerMove [start=[7, 7], end=[9, 7], move=false, playerId=1]
+03-20 13:46:52 Engine Notifying player of last move
+03-20 13:46:52 Engine Finished processing player 1's move
+03-20 13:46:52 Engine Ran reference player on same move.
+03-20 13:46:52 Engine Game state according to player under test follows.
+03-20 13:46:52 P1T_003 doTest called.
+03-20 13:46:52 P1T_003  No problems w/player ID.
+03-20 13:46:53 P1T_003  No problems w/shortest path.
+03-20 13:46:53 P1T_003  No problems w/getting neighbors.
+03-20 13:46:53 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-20 13:46:53 P1T_003  Discrepancy calling getPlayerLocation(2): Player's value = null; Correct value = [0, 4].
+03-20 13:46:53 P1T_003  Discrepancies with player game state.
+03-20 13:46:53 Engine Getting preMove from list
+03-20 13:46:53 Engine Move is PlayerMove [start=[7, 7], end=[7, 9], move=false, playerId=2]
+03-20 13:46:53 Engine Notifying player of last move
+03-20 13:46:53 Engine Error: Error in moveInfo
+03-20 13:47:03 Engine Error: Player timed out or raised an exception in moveInfo
+03-20 13:47:03 Engine Finished processing player 2's move
+03-20 13:47:03 Engine Ran reference player on same move.
+03-20 13:47:03 Engine Game state according to player under test follows.
+03-20 13:47:03 P1T_003 doTest called.
+03-20 13:47:03 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-20 13:47:03 P1T_003  Discrepancy calling getShortestPath([0, 0] to [7, 7]): Player's path size = 15; Correct path size = 0.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 4; Correct value = 3.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 3; Correct value = 2.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:03 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-20 13:47:03 P1T_003  Discrepancy calling getPlayerLocation(2): Player's value = null; Correct value = [0, 4].
+03-20 13:47:03 P1T_003  Discrepancies with player game state.
+03-20 13:47:03 Engine Getting preMove from list
+03-20 13:47:03 Engine Move is PlayerMove [start=[1, 7], end=[1, 9], move=false, playerId=1]
+03-20 13:47:03 Engine Notifying player of last move
+03-20 13:47:03 Engine Finished processing player 1's move
+03-20 13:47:03 Engine Ran reference player on same move.
+03-20 13:47:03 Engine Game state according to player under test follows.
+03-20 13:47:03 P1T_003 doTest called.
+03-20 13:47:03 P1T_003  No problems w/player ID.
+03-20 13:47:03 P1T_003  Discrepancy calling getShortestPath([0, 0] to [7, 7]): Player's path size = 15; Correct path size = 0.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 2; Correct value = 1.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 4; Correct value = 3.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 3; Correct value = 2.
+03-20 13:47:03 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:03 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-20 13:47:03 P1T_003  Discrepancy calling getPlayerLocation(2): Player's value = null; Correct value = [0, 4].
+03-20 13:47:03 P1T_003  Discrepancies with player game state.
+03-20 13:47:03 Engine Getting preMove from list
+03-20 13:47:03 Engine Move is PlayerMove [start=[8, 0], end=[8, 2], move=false, playerId=2]
+03-20 13:47:03 Engine Notifying player of last move
+03-20 13:47:03 Engine Error: Error in moveInfo
+03-20 13:47:13 Engine Error: Player timed out or raised an exception in moveInfo
+03-20 13:47:13 Engine Finished processing player 2's move
+03-20 13:47:13 Engine Ran reference player on same move.
+03-20 13:47:13 Engine Game state according to player under test follows.
+03-20 13:47:13 P1T_003 doTest called.
+03-20 13:47:13 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-20 13:47:13 P1T_003  Discrepancy calling getShortestPath([0, 0] to [7, 7]): Player's path size = 15; Correct path size = 0.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 2; Correct value = 1.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 4; Correct value = 3.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([7, 0]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([7, 1]): Player's value = 4; Correct value = 3.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([8, 0]): Player's value = 2; Correct value = 1.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([8, 1]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-20 13:47:13 P1T_003  Discrepancy calling getPlayerLocation(2): Player's value = null; Correct value = [0, 4].
+03-20 13:47:13 P1T_003  Discrepancies with player game state.
+03-20 13:47:13 Engine Getting preMove from list
+03-20 13:47:13 Engine Move is PlayerMove [start=[1, 7], end=[3, 7], move=false, playerId=1]
+03-20 13:47:13 Engine Notifying player of last move
+03-20 13:47:13 Engine Finished processing player 1's move
+03-20 13:47:13 Engine Ran reference player on same move.
+03-20 13:47:13 Engine Game state according to player under test follows.
+03-20 13:47:13 P1T_003 doTest called.
+03-20 13:47:13 P1T_003  No problems w/player ID.
+03-20 13:47:13 P1T_003  Discrepancy calling getShortestPath([0, 0] to [1, 7]): Player's path size = 11; Correct path size = 13.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 2; Correct value = 1.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([2, 6]): Player's value = 4; Correct value = 3.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([2, 7]): Player's value = 4; Correct value = 3.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([3, 6]): Player's value = 3; Correct value = 4.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([3, 7]): Player's value = 3; Correct value = 4.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 4; Correct value = 3.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([7, 0]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([7, 1]): Player's value = 4; Correct value = 3.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([8, 0]): Player's value = 2; Correct value = 1.
+03-20 13:47:13 P1T_003  Discrepancy calling getNeighbors([8, 1]): Player's value = 3; Correct value = 2.
+03-20 13:47:13 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-20 13:47:13 P1T_003  Discrepancy calling getPlayerLocation(2): Player's value = null; Correct value = [0, 4].
+03-20 13:47:13 P1T_003  Discrepancies with player game state.
+03-20 13:47:13 Engine Getting preMove from list
+03-20 13:47:13 Engine Move is PlayerMove [start=[8, 2], end=[8, 4], move=false, playerId=2]
+03-20 13:47:13 Engine Notifying player of last move
+03-20 13:47:13 Engine Error: Error in moveInfo
+03-20 13:47:23 Engine Error: Player timed out or raised an exception in moveInfo
+03-20 13:47:23 Engine Finished processing player 2's move
+03-20 13:47:23 Engine Ran reference player on same move.
+03-20 13:47:23 Engine Game state according to player under test follows.
+03-20 13:47:23 P1T_003 doTest called.
+03-20 13:47:23 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-20 13:47:23 P1T_003  Discrepancy calling getShortestPath([0, 0] to [1, 7]): Player's path size = 11; Correct path size = 13.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 2; Correct value = 1.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([2, 6]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([2, 7]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([3, 6]): Player's value = 3; Correct value = 4.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([3, 7]): Player's value = 3; Correct value = 4.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 0]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 1]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 2]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 3]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([8, 0]): Player's value = 2; Correct value = 1.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([8, 1]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([8, 2]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([8, 3]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-20 13:47:23 P1T_003  Discrepancy calling getPlayerLocation(2): Player's value = null; Correct value = [0, 4].
+03-20 13:47:23 P1T_003  Discrepancies with player game state.
+03-20 13:47:23 Engine Getting preMove from list
+03-20 13:47:23 Engine Move is PlayerMove [start=[2, 8], end=[4, 8], move=false, playerId=1]
+03-20 13:47:23 Engine Notifying player of last move
+03-20 13:47:23 Engine Finished processing player 1's move
+03-20 13:47:23 Engine Ran reference player on same move.
+03-20 13:47:23 Engine Game state according to player under test follows.
+03-20 13:47:23 P1T_003 doTest called.
+03-20 13:47:23 P1T_003  No problems w/player ID.
+03-20 13:47:23 P1T_003  Discrepancy calling getShortestPath([0, 0] to [1, 7]): Player's path size = 11; Correct path size = 13.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 2; Correct value = 1.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([2, 6]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([2, 7]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([3, 6]): Player's value = 3; Correct value = 4.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([3, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([4, 7]): Player's value = 3; Correct value = 4.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([4, 8]): Player's value = 2; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 0]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 1]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 2]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 3]): Player's value = 4; Correct value = 3.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([8, 0]): Player's value = 2; Correct value = 1.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([8, 1]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([8, 2]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  Discrepancy calling getNeighbors([8, 3]): Player's value = 3; Correct value = 2.
+03-20 13:47:23 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-20 13:47:23 P1T_003  Discrepancy calling getPlayerLocation(2): Player's value = null; Correct value = [0, 4].
+03-20 13:47:23 P1T_003  Discrepancies with player game state.
+03-20 13:47:23 Engine Getting preMove from list
+03-20 13:47:23 Engine Move is PlayerMove [start=[7, 4], end=[9, 4], move=false, playerId=2]
+03-20 13:47:23 Engine Notifying player of last move
+03-20 13:47:23 Engine Error: Error in moveInfo

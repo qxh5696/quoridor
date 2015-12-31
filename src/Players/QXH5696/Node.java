@@ -6,7 +6,7 @@ package Players.QXH5696;
 /*
  * Node.java
  *
- * Representation of a graph node.
+ * Representation of a graph ndoe.
  *
  */
 
@@ -65,6 +65,7 @@ public class Node {
     public void addNeighbor(Node n) {
         if(!neighbors.contains(n)) {
             neighbors.add(n);
+            n.neighbors.add(this);
         }
     }
 
@@ -83,7 +84,8 @@ public class Node {
      * @param node node the person wants to be removed
      */
     public void removeNeighbor(Node node){
-        Node tempNode;
+        //Node tempNode;
+        /*
         for (int i = 0; i < this.neighbors.size(); i++){
             if(this.neighbors.get(i).getLocation().getRow() == node.getLocation().getRow()){
                 if(this.neighbors.get(i).getLocation().getCol() == node.getLocation().getCol()){
@@ -93,7 +95,9 @@ public class Node {
                 }
             }
         }
-
+        */
+        this.neighbors.remove(node);
+        node.neighbors.remove(this);
     }
 
     /**
@@ -111,7 +115,6 @@ public class Node {
         for(Node nbr : neighbors) {
             result += nbr.getLocation().toString() + ",";
         }
-        //result += "\n";
         //get rid of Commas
         result = result.substring(0, result.length()-1);
         result += ")";

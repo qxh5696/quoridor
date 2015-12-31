@@ -1,0 +1,58 @@
+03-18 13:45:11 Engine Quoridor Java Part 1 Client v0.4.0 by RIT CS Department starting up
+03-18 13:45:11 Engine Loading player QXH5696
+03-18 13:45:11 Engine Loaded player QXH5696
+03-18 13:45:11 Engine Running part 1 program with 0 fake players added.
+      PRE_MOVES should cycle over 1 players.
+03-18 13:45:11 Engine Calling init() for player 1
+03-18 13:45:11 Engine Calling init() for reference player
+03-18 13:45:11 P1T_003 doTest called.
+03-18 13:45:11 P1T_003  Discrepancy calling getID(): Player's value = 0; Correct value = 1.
+03-18 13:45:12 P1T_003  No problems w/shortest path.
+03-18 13:45:12 P1T_003  No problems w/getting neighbors.
+03-18 13:45:12 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-18 13:45:12 P1T_003  getPlayerLocation is returning null (has it been implemented?)
+03-18 13:45:12 P1T_003  Discrepancies with player game state.
+03-18 13:45:12 Engine Getting preMove from list
+03-18 13:45:12 Engine Move is PlayerMove [start=[7, 3], end=[7, 5], move=false, playerId=1]
+03-18 13:45:12 Engine Notifying player of last move
+03-18 13:45:12 Engine Error: Error in moveInfo
+03-18 13:45:22 Engine Error: Player timed out or raised an exception in moveInfo
+03-18 13:45:22 Engine Finished processing player 1's move
+03-18 13:45:22 Engine Ran reference player on same move.
+03-18 13:45:22 Engine Game state according to player under test follows.
+03-18 13:45:22 P1T_003 doTest called.
+03-18 13:45:22 P1T_003  No problems w/player ID.
+03-18 13:45:22 P1T_003  Discrepancy calling getShortestPath([0, 0] to [7, 4]): Player's path size = 11; Correct path size = 12.
+03-18 13:45:22 P1T_003  Discrepancy calling getNeighbors([6, 3]): Player's value = 4; Correct value = 3.
+03-18 13:45:22 P1T_003  Discrepancy calling getNeighbors([6, 4]): Player's value = 4; Correct value = 3.
+03-18 13:45:22 P1T_003  Discrepancy calling getNeighbors([7, 3]): Player's value = 4; Correct value = 3.
+03-18 13:45:22 P1T_003  Discrepancy calling getNeighbors([7, 4]): Player's value = 4; Correct value = 3.
+03-18 13:45:22 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-18 13:45:22 P1T_003  getPlayerLocation is returning null (has it been implemented?)
+03-18 13:45:22 P1T_003  Discrepancies with player game state.
+03-18 13:45:22 Engine Getting preMove from list
+03-18 13:45:22 Engine Move is PlayerMove [start=[7, 5], end=[7, 7], move=false, playerId=1]
+03-18 13:45:22 Engine Notifying player of last move
+03-18 13:45:22 Engine Error: Error in moveInfo
+03-18 13:45:32 Engine Error: Player timed out or raised an exception in moveInfo
+03-18 13:45:32 Engine Finished processing player 1's move
+03-18 13:45:32 Engine Ran reference player on same move.
+03-18 13:45:32 Engine Game state according to player under test follows.
+03-18 13:45:32 P1T_003 doTest called.
+03-18 13:45:32 P1T_003  No problems w/player ID.
+03-18 13:45:32 P1T_003  Discrepancy calling getShortestPath([0, 0] to [7, 4]): Player's path size = 11; Correct path size = 12.
+03-18 13:45:32 P1T_003  Discrepancy calling getNeighbors([6, 3]): Player's value = 4; Correct value = 3.
+03-18 13:45:32 P1T_003  Discrepancy calling getNeighbors([6, 4]): Player's value = 4; Correct value = 3.
+03-18 13:45:32 P1T_003  Discrepancy calling getNeighbors([6, 5]): Player's value = 4; Correct value = 3.
+03-18 13:45:32 P1T_003  Discrepancy calling getNeighbors([6, 6]): Player's value = 4; Correct value = 3.
+03-18 13:45:32 P1T_003  Discrepancy calling getNeighbors([7, 3]): Player's value = 4; Correct value = 3.
+03-18 13:45:32 P1T_003  Discrepancy calling getNeighbors([7, 4]): Player's value = 4; Correct value = 3.
+03-18 13:45:32 P1T_003  Discrepancy calling getNeighbors([7, 5]): Player's value = 4; Correct value = 3.
+03-18 13:45:32 P1T_003  Discrepancy calling getNeighbors([7, 6]): Player's value = 4; Correct value = 3.
+03-18 13:45:32 P1T_003  getWallsRemaining is returning null (has it been implemented?)
+03-18 13:45:32 P1T_003  getPlayerLocation is returning null (has it been implemented?)
+03-18 13:45:32 P1T_003  Discrepancies with player game state.
+03-18 13:45:32 Engine Getting preMove from list
+03-18 13:45:32 Engine Move is PlayerMove [start=[7, 6], end=[9, 6], move=false, playerId=1]
+03-18 13:45:32 Engine Notifying player of last move
+03-18 13:45:32 Engine Error: Error in moveInfo

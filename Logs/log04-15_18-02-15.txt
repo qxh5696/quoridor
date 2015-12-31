@@ -1,0 +1,100 @@
+04-15 18:02:15 Engine Quoridor Java Part 1 Client v1.0.6 by RIT CS Department starting up
+04-15 18:02:15 Engine Loading player QXH5696
+04-15 18:02:15 Engine Loaded player QXH5696
+04-15 18:02:15 Engine Running part 1 program with 3 fake players added.
+      PRE_MOVES should cycle over 4 players.
+04-15 18:02:15 Engine Calling init() for player 1
+04-15 18:02:15 Engine Calling init() for reference player
+04-15 18:02:15 P1T_003 doTest called.
+04-15 18:02:15 P1T_003  No problems w/player ID.
+04-15 18:02:16 P1T_003  No problems w/shortest path.
+04-15 18:02:16 P1T_003  No problems w/getting neighbors.
+04-15 18:02:16 P1T_003  No problems w/walls remaining.
+04-15 18:02:16 P1T_003  No problems w/player locations.
+04-15 18:02:16 P1T_003  No problems w/player game state.
+04-15 18:02:16 Engine Getting preMove from list
+04-15 18:02:16 Engine Move is PlayerMove [start=[8, 4], end=[7, 4], move=true, playerId=1]
+04-15 18:02:16 Engine Notifying player of last move
+04-15 18:02:16 Engine Finished processing player 1's move
+04-15 18:02:16 Engine Ran reference player on same move.
+04-15 18:02:16 Engine Game state according to player under test follows.
+04-15 18:02:16 P1T_003 doTest called.
+04-15 18:02:16 P1T_003  No problems w/player ID.
+04-15 18:02:16 P1T_003  No problems w/shortest path.
+04-15 18:02:16 P1T_003  No problems w/getting neighbors.
+04-15 18:02:16 P1T_003  No problems w/walls remaining.
+04-15 18:02:16 P1T_003  No problems w/player locations.
+04-15 18:02:16 P1T_003  No problems w/player game state.
+04-15 18:02:16 Engine Getting preMove from list
+04-15 18:02:16 Engine Move is PlayerMove [start=[4, 4], end=[6, 4], move=false, playerId=2]
+04-15 18:02:16 Engine Notifying player of last move
+04-15 18:02:16 Engine Finished processing player 2's move
+04-15 18:02:16 Engine Ran reference player on same move.
+04-15 18:02:16 Engine Game state according to player under test follows.
+04-15 18:02:17 P1T_003 doTest called.
+04-15 18:02:17 P1T_003  No problems w/player ID.
+04-15 18:02:17 P1T_003  No problems w/shortest path.
+04-15 18:02:17 P1T_003  No problems w/getting neighbors.
+04-15 18:02:17 P1T_003  No problems w/walls remaining.
+04-15 18:02:17 P1T_003  No problems w/player locations.
+04-15 18:02:17 P1T_003  No problems w/player game state.
+04-15 18:02:17 Engine Getting preMove from list
+04-15 18:02:17 Engine Move is PlayerMove [start=[4, 0], end=[5, 0], move=true, playerId=3]
+04-15 18:02:17 Engine Notifying player of last move
+04-15 18:02:17 Engine Finished processing player 3's move
+04-15 18:02:17 Engine Ran reference player on same move.
+04-15 18:02:17 Engine Game state according to player under test follows.
+04-15 18:02:17 P1T_003 doTest called.
+04-15 18:02:17 P1T_003  No problems w/player ID.
+04-15 18:02:18 P1T_003  No problems w/shortest path.
+04-15 18:02:18 P1T_003  No problems w/getting neighbors.
+04-15 18:02:18 P1T_003  No problems w/walls remaining.
+04-15 18:02:18 P1T_003  No problems w/player locations.
+04-15 18:02:18 P1T_003  No problems w/player game state.
+04-15 18:02:18 Engine Getting preMove from list
+04-15 18:02:18 Engine Move is PlayerMove [start=[4, 4], end=[4, 6], move=false, playerId=4]
+04-15 18:02:18 Engine Notifying player of last move
+04-15 18:02:18 Engine Finished processing player 4's move
+04-15 18:02:18 Engine Ran reference player on same move.
+04-15 18:02:18 Engine Game state according to player under test follows.
+04-15 18:02:18 P1T_003 doTest called.
+04-15 18:02:18 P1T_003  No problems w/player ID.
+04-15 18:02:18 P1T_003  No problems w/shortest path.
+04-15 18:02:18 P1T_003  No problems w/getting neighbors.
+04-15 18:02:18 P1T_003  No problems w/walls remaining.
+04-15 18:02:18 P1T_003  No problems w/player locations.
+04-15 18:02:18 P1T_003  No problems w/player game state.
+04-15 18:02:18 Engine Getting preMove from list
+04-15 18:02:18 Engine Move is PlayerMove [start=[6, 4], end=[6, 6], move=false, playerId=1]
+04-15 18:02:18 Engine Notifying player of last move
+04-15 18:02:18 Engine Finished processing player 1's move
+04-15 18:02:18 Engine Ran reference player on same move.
+04-15 18:02:18 Engine Game state according to player under test follows.
+04-15 18:02:18 P1T_003 doTest called.
+04-15 18:02:18 P1T_003  No problems w/player ID.
+04-15 18:02:19 P1T_003  No problems w/shortest path.
+04-15 18:02:19 P1T_003  No problems w/getting neighbors.
+04-15 18:02:19 P1T_003  No problems w/walls remaining.
+04-15 18:02:19 P1T_003  No problems w/player locations.
+04-15 18:02:19 P1T_003  No problems w/player game state.
+04-15 18:02:19 Engine Getting preMove from list
+04-15 18:02:19 Engine Move is PlayerMove [start=[4, 6], end=[6, 6], move=false, playerId=2]
+04-15 18:02:19 Engine Notifying player of last move
+04-15 18:02:19 Engine Finished processing player 2's move
+04-15 18:02:19 Engine Ran reference player on same move.
+04-15 18:02:19 Engine Game state according to player under test follows.
+04-15 18:02:19 P1T_003 doTest called.
+04-15 18:02:19 P1T_003  No problems w/player ID.
+04-15 18:02:20 P1T_003  No problems w/shortest path.
+04-15 18:02:20 P1T_003  No problems w/getting neighbors.
+04-15 18:02:20 P1T_003  No problems w/walls remaining.
+04-15 18:02:20 P1T_003  No problems w/player locations.
+04-15 18:02:20 P1T_003  No problems w/player game state.
+04-15 18:02:20 Engine Getting preMove from list
+04-15 18:02:20 Engine Move is PlayerMove [start=[5, 1], end=[7, 1], move=false, playerId=3]
+04-15 18:02:20 Engine Notifying player of last move
+04-15 18:02:20 Engine Finished processing player 3's move
+04-15 18:02:20 Engine Ran reference player on same move.
+04-15 18:02:20 Engine Game state according to player under test follows.
+04-15 18:02:20 P1T_003 doTest called.
+04-15 18:02:20 P1T_003  No problems w/player ID.

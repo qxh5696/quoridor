@@ -1,0 +1,466 @@
+03-18 00:57:35 Engine Quoridor Java Part 1 Client v0.4.0 by RIT CS Department starting up
+03-18 00:57:35 Engine Loading player QXH5696
+03-18 00:57:35 Engine Loaded player QXH5696
+03-18 00:57:35 Engine Running part 1 program with 0 fake players added.
+      PRE_MOVES should cycle over 1 players.
+03-18 00:57:35 Engine Calling init() for player 1
+03-18 00:57:35 Engine Calling init() for reference player
+03-18 00:57:35 P1T_003 doTest called.
+03-18 00:57:35 P1T_003  No problems w/player ID.
+03-18 00:57:36 P1T_003  No problems w/shortest path.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 0]): Player's value = 1; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 1]): Player's value = 2; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 3]): Player's value = 4; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 4]): Player's value = 5; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 5]): Player's value = 6; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 6]): Player's value = 7; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 7]): Player's value = 8; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 9; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 0]): Player's value = 10; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 1]): Player's value = 11; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 2]): Player's value = 12; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 3]): Player's value = 13; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 4]): Player's value = 14; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 5]): Player's value = 15; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 6]): Player's value = 16; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 7]): Player's value = 17; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 18; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 0]): Player's value = 19; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 1]): Player's value = 20; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 2]): Player's value = 21; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 3]): Player's value = 22; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 4]): Player's value = 23; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 5]): Player's value = 24; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 6]): Player's value = 25; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 7]): Player's value = 26; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 8]): Player's value = 27; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 0]): Player's value = 28; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 1]): Player's value = 29; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 2]): Player's value = 30; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 3]): Player's value = 31; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 4]): Player's value = 32; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 5]): Player's value = 33; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 6]): Player's value = 34; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 7]): Player's value = 35; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 8]): Player's value = 36; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 0]): Player's value = 37; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 1]): Player's value = 38; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 2]): Player's value = 39; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 3]): Player's value = 40; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 4]): Player's value = 41; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 5]): Player's value = 42; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 6]): Player's value = 43; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 7]): Player's value = 44; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 8]): Player's value = 45; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 0]): Player's value = 46; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 1]): Player's value = 47; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 2]): Player's value = 48; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 3]): Player's value = 49; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 4]): Player's value = 50; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 5]): Player's value = 51; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 6]): Player's value = 52; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 7]): Player's value = 53; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 8]): Player's value = 54; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 0]): Player's value = 55; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 1]): Player's value = 56; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 2]): Player's value = 57; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 3]): Player's value = 58; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 4]): Player's value = 59; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 5]): Player's value = 60; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 6]): Player's value = 61; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 62; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 63; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 0]): Player's value = 64; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 1]): Player's value = 65; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 2]): Player's value = 66; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 3]): Player's value = 67; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 4]): Player's value = 68; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 5]): Player's value = 69; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 6]): Player's value = 70; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 71; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 72; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 0]): Player's value = 73; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 1]): Player's value = 74; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 2]): Player's value = 75; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 3]): Player's value = 76; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 4]): Player's value = 77; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 5]): Player's value = 78; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 6]): Player's value = 79; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 7]): Player's value = 80; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 8]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  No problems w/walls remaining.
+03-18 00:57:36 P1T_003  Discrepancy calling getPlayerLocation(1): Player's value = null; Correct value = [8, 4].
+03-18 00:57:36 P1T_003  Discrepancies with player game state.
+03-18 00:57:36 Engine Getting preMove from list
+03-18 00:57:36 Engine Move is PlayerMove [start=[7, 3], end=[7, 5], move=false, playerId=1]
+03-18 00:57:36 Engine Notifying player of last move
+03-18 00:57:36 Engine Finished processing player 1's move
+03-18 00:57:36 Engine Ran reference player on same move.
+03-18 00:57:36 Engine Game state according to player under test follows.
+03-18 00:57:36 P1T_003 doTest called.
+03-18 00:57:36 P1T_003  No problems w/player ID.
+03-18 00:57:36 P1T_003  Discrepancy calling getShortestPath([0, 0] to [7, 4]): Player's path size = 11; Correct path size = 12.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 0]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 1]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 2]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 7]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 0]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 1]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 2]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 7]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 8]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getWallsRemaining(1): Player's value = 10; Correct value = 9.
+03-18 00:57:36 P1T_003  Discrepancy calling getPlayerLocation(1): Player's value = null; Correct value = [8, 4].
+03-18 00:57:36 P1T_003  Discrepancies with player game state.
+03-18 00:57:36 Engine Getting preMove from list
+03-18 00:57:36 Engine Move is PlayerMove [start=[7, 5], end=[7, 7], move=false, playerId=1]
+03-18 00:57:36 Engine Notifying player of last move
+03-18 00:57:36 Engine Finished processing player 1's move
+03-18 00:57:36 Engine Ran reference player on same move.
+03-18 00:57:36 Engine Game state according to player under test follows.
+03-18 00:57:36 P1T_003 doTest called.
+03-18 00:57:36 P1T_003  No problems w/player ID.
+03-18 00:57:36 P1T_003  Discrepancy calling getShortestPath([0, 0] to [7, 4]): Player's path size = 11; Correct path size = 12.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 0]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 1]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 2]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 7]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 0]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 1]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 2]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 7]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 8]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getWallsRemaining(1): Player's value = 10; Correct value = 8.
+03-18 00:57:36 P1T_003  Discrepancy calling getPlayerLocation(1): Player's value = null; Correct value = [8, 4].
+03-18 00:57:36 P1T_003  Discrepancies with player game state.
+03-18 00:57:36 Engine Getting preMove from list
+03-18 00:57:36 Engine Move is PlayerMove [start=[7, 6], end=[9, 6], move=false, playerId=1]
+03-18 00:57:36 Engine Notifying player of last move
+03-18 00:57:36 Engine Finished processing player 1's move
+03-18 00:57:36 Engine Ran reference player on same move.
+03-18 00:57:36 Engine Game state according to player under test follows.
+03-18 00:57:36 P1T_003 doTest called.
+03-18 00:57:36 P1T_003  No problems w/player ID.
+03-18 00:57:36 P1T_003  Discrepancy calling getShortestPath([0, 0] to [7, 4]): Player's path size = 11; Correct path size = 12.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 0]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 1]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 2]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 7]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 5]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 6]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 0]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 1]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 2]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 5]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 6]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 7]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 8]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getWallsRemaining(1): Player's value = 10; Correct value = 7.
+03-18 00:57:36 P1T_003  Discrepancy calling getPlayerLocation(1): Player's value = null; Correct value = [8, 4].
+03-18 00:57:36 P1T_003  Discrepancies with player game state.
+03-18 00:57:36 Engine Getting preMove from list
+03-18 00:57:36 Engine Move is PlayerMove [start=[7, 7], end=[9, 7], move=false, playerId=1]
+03-18 00:57:36 Engine Notifying player of last move
+03-18 00:57:36 Engine Finished processing player 1's move
+03-18 00:57:36 Engine Ran reference player on same move.
+03-18 00:57:36 Engine Game state according to player under test follows.
+03-18 00:57:36 P1T_003 doTest called.
+03-18 00:57:36 P1T_003  No problems w/player ID.
+03-18 00:57:36 P1T_003  Discrepancy calling getShortestPath([0, 0] to [7, 4]): Player's path size = 11; Correct path size = 12.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 0]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 1]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 2]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 7]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([0, 8]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([1, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([2, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([3, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([4, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 3]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 4]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 5]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 6]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([5, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 5]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 6]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 7]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([6, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 0]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 1]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 2]): Player's value = 81; Correct value = 4.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 5]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 6]): Player's value = 81; Correct value = 1.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 7]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([7, 8]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 0]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 1]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 2]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 3]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 4]): Player's value = 81; Correct value = 3.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 5]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 6]): Player's value = 81; Correct value = 1.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 7]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getNeighbors([8, 8]): Player's value = 81; Correct value = 2.
+03-18 00:57:36 P1T_003  Discrepancy calling getWallsRemaining(1): Player's value = 10; Correct value = 6.
+03-18 00:57:36 P1T_003  Discrepancy calling getPlayerLocation(1): Player's value = null; Correct value = [8, 4].
+03-18 00:57:36 P1T_003  Discrepancies with player game state.
+03-18 00:57:36 Engine Game has ended

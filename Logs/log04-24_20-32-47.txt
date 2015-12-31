@@ -1,0 +1,8 @@
+04-24 20:32:47 Engine Quoridor Java Part 1 Client v1.0.6 by RIT CS Department starting up
+04-24 20:32:47 Engine Loading player QXH5696
+04-24 20:32:47 Engine Loaded player QXH5696
+04-24 20:32:47 Engine Running part 1 program with 3 fake players added.
+      PRE_MOVES should cycle over 4 players.
+04-24 20:32:47 Engine Calling init() for player 1
+04-24 20:32:47 Engine Error: Invalidating player 1 due to error in init
+04-24 20:32:47 Engine Game has ended

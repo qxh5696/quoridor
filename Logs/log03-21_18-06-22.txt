@@ -1,0 +1,249 @@
+03-21 18:06:22 Engine Quoridor Java Part 1 Client v1.0.4 by RIT CS Department starting up
+03-21 18:06:22 Engine Loading player QXH5696
+03-21 18:06:22 Engine Loaded player QXH5696
+03-21 18:06:22 Engine Running part 1 program with 1 fake players added.
+      PRE_MOVES should cycle over 2 players.
+03-21 18:06:22 Engine Calling init() for player 1
+03-21 18:06:22 Engine Calling init() for reference player
+03-21 18:06:22 P1T_003 doTest called.
+03-21 18:06:22 P1T_003  No problems w/player ID.
+03-21 18:06:23 P1T_003  No problems w/shortest path.
+03-21 18:06:23 P1T_003  No problems w/getting neighbors.
+03-21 18:06:23 P1T_003  No problems w/walls remaining.
+03-21 18:06:23 P1T_003  No problems w/player locations.
+03-21 18:06:23 P1T_003  No problems w/player game state.
+03-21 18:06:23 Engine Getting preMove from list
+03-21 18:06:23 Engine Move is PlayerMove [start=[7, 7], end=[9, 7], move=false, playerId=1]
+03-21 18:06:23 Engine Notifying player of last move
+03-21 18:06:23 Engine Finished processing player 1's move
+03-21 18:06:23 Engine Ran reference player on same move.
+03-21 18:06:23 Engine Game state according to player under test follows.
+03-21 18:06:23 P1T_003 doTest called.
+03-21 18:06:23 P1T_003  No problems w/player ID.
+03-21 18:06:24 P1T_003  No problems w/shortest path.
+03-21 18:06:24 P1T_003  No problems w/getting neighbors.
+03-21 18:06:24 P1T_003  No problems w/walls remaining.
+03-21 18:06:24 P1T_003  No problems w/player locations.
+03-21 18:06:24 P1T_003  No problems w/player game state.
+03-21 18:06:24 Engine Getting preMove from list
+03-21 18:06:24 Engine Move is PlayerMove [start=[7, 7], end=[7, 9], move=false, playerId=2]
+03-21 18:06:24 Engine Notifying player of last move
+03-21 18:06:24 Engine Finished processing player 2's move
+03-21 18:06:24 Engine Ran reference player on same move.
+03-21 18:06:24 Engine Game state according to player under test follows.
+03-21 18:06:24 P1T_003 doTest called.
+03-21 18:06:24 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-21 18:06:24 P1T_003  No problems w/shortest path.
+03-21 18:06:24 P1T_003  No problems w/getting neighbors.
+03-21 18:06:24 P1T_003  No problems w/walls remaining.
+03-21 18:06:24 P1T_003  No problems w/player locations.
+03-21 18:06:24 P1T_003  No problems w/player game state.
+03-21 18:06:24 Engine Getting preMove from list
+03-21 18:06:24 Engine Move is PlayerMove [start=[1, 7], end=[1, 9], move=false, playerId=1]
+03-21 18:06:24 Engine Notifying player of last move
+03-21 18:06:24 Engine Finished processing player 1's move
+03-21 18:06:24 Engine Ran reference player on same move.
+03-21 18:06:24 Engine Game state according to player under test follows.
+03-21 18:06:24 P1T_003 doTest called.
+03-21 18:06:24 P1T_003  No problems w/player ID.
+03-21 18:06:25 P1T_003  No problems w/shortest path.
+03-21 18:06:25 P1T_003  No problems w/getting neighbors.
+03-21 18:06:25 P1T_003  No problems w/walls remaining.
+03-21 18:06:25 P1T_003  No problems w/player locations.
+03-21 18:06:25 P1T_003  No problems w/player game state.
+03-21 18:06:25 Engine Getting preMove from list
+03-21 18:06:25 Engine Move is PlayerMove [start=[8, 0], end=[8, 2], move=false, playerId=2]
+03-21 18:06:25 Engine Notifying player of last move
+03-21 18:06:25 Engine Finished processing player 2's move
+03-21 18:06:25 Engine Ran reference player on same move.
+03-21 18:06:25 Engine Game state according to player under test follows.
+03-21 18:06:25 P1T_003 doTest called.
+03-21 18:06:25 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-21 18:06:25 P1T_003  No problems w/shortest path.
+03-21 18:06:25 P1T_003  No problems w/getting neighbors.
+03-21 18:06:25 P1T_003  No problems w/walls remaining.
+03-21 18:06:25 P1T_003  No problems w/player locations.
+03-21 18:06:25 P1T_003  No problems w/player game state.
+03-21 18:06:25 Engine Getting preMove from list
+03-21 18:06:25 Engine Move is PlayerMove [start=[1, 7], end=[3, 7], move=false, playerId=1]
+03-21 18:06:25 Engine Notifying player of last move
+03-21 18:06:25 Engine Finished processing player 1's move
+03-21 18:06:25 Engine Ran reference player on same move.
+03-21 18:06:25 Engine Game state according to player under test follows.
+03-21 18:06:25 P1T_003 doTest called.
+03-21 18:06:25 P1T_003  No problems w/player ID.
+03-21 18:06:26 P1T_003  No problems w/shortest path.
+03-21 18:06:26 P1T_003  No problems w/getting neighbors.
+03-21 18:06:26 P1T_003  No problems w/walls remaining.
+03-21 18:06:26 P1T_003  No problems w/player locations.
+03-21 18:06:26 P1T_003  No problems w/player game state.
+03-21 18:06:26 Engine Getting preMove from list
+03-21 18:06:26 Engine Move is PlayerMove [start=[8, 2], end=[8, 4], move=false, playerId=2]
+03-21 18:06:26 Engine Notifying player of last move
+03-21 18:06:26 Engine Finished processing player 2's move
+03-21 18:06:26 Engine Ran reference player on same move.
+03-21 18:06:26 Engine Game state according to player under test follows.
+03-21 18:06:26 P1T_003 doTest called.
+03-21 18:06:26 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-21 18:06:26 P1T_003  No problems w/shortest path.
+03-21 18:06:26 P1T_003  No problems w/getting neighbors.
+03-21 18:06:26 P1T_003  No problems w/walls remaining.
+03-21 18:06:26 P1T_003  No problems w/player locations.
+03-21 18:06:27 P1T_003  No problems w/player game state.
+03-21 18:06:27 Engine Getting preMove from list
+03-21 18:06:27 Engine Move is PlayerMove [start=[2, 8], end=[4, 8], move=false, playerId=1]
+03-21 18:06:27 Engine Notifying player of last move
+03-21 18:06:27 Engine Finished processing player 1's move
+03-21 18:06:27 Engine Ran reference player on same move.
+03-21 18:06:27 Engine Game state according to player under test follows.
+03-21 18:06:27 P1T_003 doTest called.
+03-21 18:06:27 P1T_003  No problems w/player ID.
+03-21 18:06:27 P1T_003  No problems w/shortest path.
+03-21 18:06:27 P1T_003  No problems w/getting neighbors.
+03-21 18:06:27 P1T_003  No problems w/walls remaining.
+03-21 18:06:27 P1T_003  No problems w/player locations.
+03-21 18:06:27 P1T_003  No problems w/player game state.
+03-21 18:06:27 Engine Getting preMove from list
+03-21 18:06:27 Engine Move is PlayerMove [start=[7, 4], end=[9, 4], move=false, playerId=2]
+03-21 18:06:27 Engine Notifying player of last move
+03-21 18:06:27 Engine Finished processing player 2's move
+03-21 18:06:27 Engine Ran reference player on same move.
+03-21 18:06:27 Engine Game state according to player under test follows.
+03-21 18:06:27 P1T_003 doTest called.
+03-21 18:06:27 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-21 18:06:28 P1T_003  No problems w/shortest path.
+03-21 18:06:28 P1T_003  No problems w/getting neighbors.
+03-21 18:06:28 P1T_003  No problems w/walls remaining.
+03-21 18:06:28 P1T_003  No problems w/player locations.
+03-21 18:06:28 P1T_003  No problems w/player game state.
+03-21 18:06:28 Engine Getting preMove from list
+03-21 18:06:28 Engine Move is PlayerMove [start=[4, 6], end=[4, 8], move=false, playerId=1]
+03-21 18:06:28 Engine Notifying player of last move
+03-21 18:06:28 Engine Finished processing player 1's move
+03-21 18:06:28 Engine Ran reference player on same move.
+03-21 18:06:28 Engine Game state according to player under test follows.
+03-21 18:06:28 P1T_003 doTest called.
+03-21 18:06:28 P1T_003  No problems w/player ID.
+03-21 18:06:28 P1T_003  No problems w/shortest path.
+03-21 18:06:28 P1T_003  No problems w/getting neighbors.
+03-21 18:06:28 P1T_003  No problems w/walls remaining.
+03-21 18:06:28 P1T_003  No problems w/player locations.
+03-21 18:06:28 P1T_003  No problems w/player game state.
+03-21 18:06:28 Engine Getting preMove from list
+03-21 18:06:28 Engine Move is PlayerMove [start=[8, 4], end=[8, 6], move=false, playerId=2]
+03-21 18:06:28 Engine Notifying player of last move
+03-21 18:06:28 Engine Finished processing player 2's move
+03-21 18:06:28 Engine Ran reference player on same move.
+03-21 18:06:28 Engine Game state according to player under test follows.
+03-21 18:06:28 P1T_003 doTest called.
+03-21 18:06:28 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-21 18:06:29 P1T_003  No problems w/shortest path.
+03-21 18:06:29 P1T_003  No problems w/getting neighbors.
+03-21 18:06:29 P1T_003  No problems w/walls remaining.
+03-21 18:06:29 P1T_003  No problems w/player locations.
+03-21 18:06:29 P1T_003  No problems w/player game state.
+03-21 18:06:29 Engine Getting preMove from list
+03-21 18:06:29 Engine Move is PlayerMove [start=[4, 4], end=[4, 6], move=false, playerId=1]
+03-21 18:06:29 Engine Notifying player of last move
+03-21 18:06:29 Engine Finished processing player 1's move
+03-21 18:06:29 Engine Ran reference player on same move.
+03-21 18:06:29 Engine Game state according to player under test follows.
+03-21 18:06:29 P1T_003 doTest called.
+03-21 18:06:29 P1T_003  No problems w/player ID.
+03-21 18:06:29 P1T_003  No problems w/shortest path.
+03-21 18:06:29 P1T_003  No problems w/getting neighbors.
+03-21 18:06:29 P1T_003  No problems w/walls remaining.
+03-21 18:06:29 P1T_003  No problems w/player locations.
+03-21 18:06:29 P1T_003  No problems w/player game state.
+03-21 18:06:29 Engine Getting preMove from list
+03-21 18:06:29 Engine Move is PlayerMove [start=[7, 5], end=[7, 7], move=false, playerId=2]
+03-21 18:06:29 Engine Notifying player of last move
+03-21 18:06:29 Engine Finished processing player 2's move
+03-21 18:06:29 Engine Ran reference player on same move.
+03-21 18:06:29 Engine Game state according to player under test follows.
+03-21 18:06:29 P1T_003 doTest called.
+03-21 18:06:29 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-21 18:06:30 P1T_003  No problems w/shortest path.
+03-21 18:06:30 P1T_003  No problems w/getting neighbors.
+03-21 18:06:30 P1T_003  No problems w/walls remaining.
+03-21 18:06:30 P1T_003  No problems w/player locations.
+03-21 18:06:30 P1T_003  No problems w/player game state.
+03-21 18:06:30 Engine Getting preMove from list
+03-21 18:06:30 Engine Move is PlayerMove [start=[2, 4], end=[4, 4], move=false, playerId=1]
+03-21 18:06:30 Engine Notifying player of last move
+03-21 18:06:30 Engine Finished processing player 1's move
+03-21 18:06:30 Engine Ran reference player on same move.
+03-21 18:06:30 Engine Game state according to player under test follows.
+03-21 18:06:30 P1T_003 doTest called.
+03-21 18:06:30 P1T_003  No problems w/player ID.
+03-21 18:06:30 P1T_003  No problems w/shortest path.
+03-21 18:06:30 P1T_003  No problems w/getting neighbors.
+03-21 18:06:30 P1T_003  No problems w/walls remaining.
+03-21 18:06:30 P1T_003  No problems w/player locations.
+03-21 18:06:30 P1T_003  No problems w/player game state.
+03-21 18:06:30 Engine Getting preMove from list
+03-21 18:06:30 Engine Move is PlayerMove [start=[1, 2], end=[1, 4], move=false, playerId=2]
+03-21 18:06:30 Engine Notifying player of last move
+03-21 18:06:31 Engine Finished processing player 2's move
+03-21 18:06:31 Engine Ran reference player on same move.
+03-21 18:06:31 Engine Game state according to player under test follows.
+03-21 18:06:31 P1T_003 doTest called.
+03-21 18:06:31 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-21 18:06:31 P1T_003  No problems w/shortest path.
+03-21 18:06:31 P1T_003  No problems w/getting neighbors.
+03-21 18:06:31 P1T_003  No problems w/walls remaining.
+03-21 18:06:31 P1T_003  No problems w/player locations.
+03-21 18:06:31 P1T_003  No problems w/player game state.
+03-21 18:06:31 Engine Getting preMove from list
+03-21 18:06:31 Engine Move is PlayerMove [start=[0, 4], end=[2, 4], move=false, playerId=1]
+03-21 18:06:31 Engine Notifying player of last move
+03-21 18:06:31 Engine Finished processing player 1's move
+03-21 18:06:31 Engine Ran reference player on same move.
+03-21 18:06:31 Engine Game state according to player under test follows.
+03-21 18:06:31 P1T_003 doTest called.
+03-21 18:06:31 P1T_003  No problems w/player ID.
+03-21 18:06:32 P1T_003  No problems w/shortest path.
+03-21 18:06:32 P1T_003  No problems w/getting neighbors.
+03-21 18:06:32 P1T_003  No problems w/walls remaining.
+03-21 18:06:32 P1T_003  No problems w/player locations.
+03-21 18:06:32 P1T_003  No problems w/player game state.
+03-21 18:06:32 Engine Getting preMove from list
+03-21 18:06:32 Engine Move is PlayerMove [start=[5, 7], end=[5, 9], move=false, playerId=2]
+03-21 18:06:32 Engine Notifying player of last move
+03-21 18:06:32 Engine Finished processing player 2's move
+03-21 18:06:32 Engine Ran reference player on same move.
+03-21 18:06:32 Engine Game state according to player under test follows.
+03-21 18:06:32 P1T_003 doTest called.
+03-21 18:06:32 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-21 18:06:32 P1T_003  No problems w/shortest path.
+03-21 18:06:32 P1T_003  No problems w/getting neighbors.
+03-21 18:06:32 P1T_003  No problems w/walls remaining.
+03-21 18:06:32 P1T_003  No problems w/player locations.
+03-21 18:06:32 P1T_003  No problems w/player game state.
+03-21 18:06:32 Engine Getting preMove from list
+03-21 18:06:32 Engine Move is PlayerMove [start=[8, 4], end=[8, 5], move=true, playerId=1]
+03-21 18:06:32 Engine Notifying player of last move
+03-21 18:06:32 Engine Finished processing player 1's move
+03-21 18:06:32 Engine Ran reference player on same move.
+03-21 18:06:32 Engine Game state according to player under test follows.
+03-21 18:06:32 P1T_003 doTest called.
+03-21 18:06:32 P1T_003  No problems w/player ID.
+03-21 18:06:33 P1T_003  No problems w/shortest path.
+03-21 18:06:33 P1T_003  No problems w/getting neighbors.
+03-21 18:06:33 P1T_003  No problems w/walls remaining.
+03-21 18:06:33 P1T_003  No problems w/player locations.
+03-21 18:06:33 P1T_003  No problems w/player game state.
+03-21 18:06:33 Engine Getting preMove from list
+03-21 18:06:33 Engine Move is PlayerMove [start=[0, 4], end=[1, 4], move=true, playerId=2]
+03-21 18:06:33 Engine Notifying player of last move
+03-21 18:06:33 Engine Finished processing player 2's move
+03-21 18:06:33 Engine Ran reference player on same move.
+03-21 18:06:33 Engine Game state according to player under test follows.
+03-21 18:06:33 P1T_003 doTest called.
+03-21 18:06:33 P1T_003  Discrepancy calling getID(): Player's value = 2; Correct value = 1.
+03-21 18:06:33 P1T_003  No problems w/shortest path.
+03-21 18:06:33 P1T_003  No problems w/getting neighbors.
+03-21 18:06:33 P1T_003  No problems w/walls remaining.
+03-21 18:06:33 P1T_003  No problems w/player locations.
+03-21 18:06:33 P1T_003  No problems w/player game state.
+03-21 18:06:33 Engine Game has ended

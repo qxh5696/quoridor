@@ -1,0 +1,9 @@
+03-20 13:45:43 Engine Quoridor Java Part 1 Client v1.0.3 by RIT CS Department starting up
+03-20 13:45:43 Engine Loading player YOUR_PLAYER_NAME_HERE
+03-20 13:45:43 Engine Error: java.lang.ClassNotFoundException: Players.YOUR_PLAYER_NAME_HERE.YOUR_PLAYER_NAME_HERE
+03-20 13:45:43 Engine Error: Failed to load player YOUR_PLAYER_NAME_HERE
+03-20 13:45:43 Engine Running part 1 program with 0 fake players added.
+      PRE_MOVES should cycle over 1 players.
+03-20 13:45:43 Engine Calling init() for player 1
+03-20 13:45:43 Engine Error: Invalidating player 1 due to error in init
+03-20 13:45:43 Engine Game has ended

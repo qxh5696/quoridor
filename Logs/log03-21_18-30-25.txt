@@ -1,0 +1,9 @@
+03-21 18:30:25 Engine Quoridor Java Part 1 Client v1.0.5 by RIT CS Department starting up
+03-21 18:30:25 Engine Loading player QXH5696
+03-21 18:30:25 Engine Loaded player QXH5696
+03-21 18:30:25 Engine Running part 1 program with 3 fake players added.
+      PRE_MOVES should cycle over 4 players.
+03-21 18:30:25 Engine Calling init() for player 1
+03-21 18:30:25 Engine Calling init() for reference player
+03-21 18:30:25 P1T_003 doTest called.
+03-21 18:30:25 Engine Error: Error in main loop

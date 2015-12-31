@@ -35,23 +35,13 @@ public class QXH5696 implements PlayerModule {
     @Override
     public void init(Logger logger, int playerId, int numWalls, Map<Integer, Coordinate> playerHomes) {
         this.numWalls = numWalls;
-        Coordinate coor;
+        //Coordinate coor;
         this.playerId = playerId;
         this.logger = logger;
-        if (this.playerId == 1){
-            coor = new Coordinate(8,4);
-            this.playerHomes.put(playerId, coor);
-        }else if (this.playerId == 2){
-            coor = new Coordinate(0,4);
-            this.playerHomes.put(playerId, coor);
-        }else if (this.playerId == 3){
-            coor = new Coordinate(4,0);
-            this.playerHomes.put(playerId, coor);
-        }else{
-            coor = new Coordinate(4,8);
-            this.playerHomes.put(playerId, coor);
+        this.playerHomes = playerHomes;
+        for(int p : playerHomes.keySet()){
+            playerWalls.put(p, this.numWalls);
         }
-        this.playerWalls.put(playerId, this.numWalls);
         for (int i = 0; i < board.length; i++){
             for(int j = 0; j < board.length; j++){
                 board[i][j] = new Node(new Coordinate(i, j));
@@ -95,51 +85,83 @@ public class QXH5696 implements PlayerModule {
     @Override
     public void lastMove(PlayerMove playerMove) {
         if (playerMove.isMove() == true) {
-            Coordinate newCor = board[playerMove.getEndRow()][playerMove.getEndCol()].getLocation();
-            playerHomes.put(playerMove.getPlayerId(), newCor);
+            Coordinate newCoor = board[playerMove.getEndRow()][playerMove.getEndCol()].getLocation();
+            playerHomes.put(playerMove.getPlayerId(), newCoor);
         }
         else { //playerMove is false
             int newWallVal = playerWalls.get(playerMove.getPlayerId())-1;
             playerWalls.put(playerMove.getPlayerId(), newWallVal);
             Coordinate start = playerMove.getStart();
             Coordinate end = playerMove.getEnd();
-            if (start.getRow() == end.getRow()){
-                if (start.getRow() == 9 && end.getRow() == 9){
-                    board[start.getRow()][start.getCol()].removeNeighbor(null);
-                    board[end.getRow()][end.getCol()].removeNeighbor(null);
-                }
-                else if (start.getCol() == 9){
-                    board[start.getRow()][start.getCol()].removeNeighbor(null);
-                    board[end.getRow()][end.getCol()].removeNeighbor(null);
-                }
-                else if (end.getCol() == 9){//start = [4,7] , end = [4,9]
-                    board[start.getRow()][start.getCol()].removeNeighbor(board[start.getRow()-1][start.getCol()]);//[4,7] removes [3,7]
-                    board[end.getRow()][end.getCol()-1].removeNeighbor(board[end.getRow()-1][end.getCol()-1]);//[4,8] removes [3,8]
-                }else{//start = [4,4] end = [4,6]
-                    board[start.getRow()][start.getCol()].removeNeighbor(board[start.getRow()-1][start.getCol()]);//[4,4] removes [3,4]
-                    board[end.getRow()][end.getCol()-1].removeNeighbor(board[end.getRow()-1][end.getCol()-1]);//[4,5] removes [3,5]
-                }
+            wallInput(start, end, board);
+        }
+    }
+
+    private  void wallInput(Coordinate start, Coordinate end, Node[][] board){
+        if (start.getRow() == end.getRow()){
+            if(start.getRow() == 0 && end.getRow() == 0){
+
             }
-            else if (start.getCol() == end.getCol()){
-                if (start.getCol() == 9 && end.getCol() == 9){
-                    board[start.getRow()][start.getCol()].removeNeighbor(null);
-                    board[end.getRow()][end.getCol()].removeNeighbor(null);
-                }
-                else if (start.getRow() == 9){
-                    board[start.getRow()][start.getCol()].removeNeighbor(null);
-                    board[end.getRow()][end.getCol()].removeNeighbor(null);
-                }
-                else if (end.getRow() == 9){
-                    board[start.getRow()][start.getCol()].removeNeighbor(board[start.getRow()][start.getCol()-1]);//[7,8] removes [7,7]
-                    board[end.getRow()-1][end.getCol()].removeNeighbor(board[end.getRow()-1][end.getCol()-1]);//[8,8] removes [8,7]
-                }else{
-                    board[start.getRow()][start.getCol()].removeNeighbor(board[start.getRow()][start.getCol()-1]);//[4,4] removes [4,3]
-                    board[end.getRow()-1][end.getCol()].removeNeighbor(board[end.getRow()-1][end.getCol()-1]);//[5,4] removes [5,3]
-                }
+            else if (end.getCol() == 9){//start = [4,7] , end = [4,9]
+                board[start.getRow()][start.getCol()].removeNeighbor(board[start.getRow() - 1][start.getCol()]);//[4,7] removes [3,7]
+                board[end.getRow()][end.getCol()-1].removeNeighbor(board[end.getRow() - 1][end.getCol() - 1]);//[4,8] removes [3,8]
+            }
+            else{//start = [4,4] end = [4,6]
+                board[start.getRow()][start.getCol()].removeNeighbor(board[start.getRow() - 1][start.getCol()]);//[4,4] removes [3,4]
+                board[end.getRow()][end.getCol()-1].removeNeighbor(board[end.getRow() - 1][end.getCol() - 1]);//[4,5] removes [3,5]
+            }
+        }
+        //vertical
+        else if (start.getCol() == end.getCol()){
+            if(start.getCol() == 0){
+
+            }
+            else if (end.getRow() == 9){
+                board[start.getRow()][start.getCol()].removeNeighbor(board[start.getRow()][start.getCol() - 1]);//[7,8] removes [7,7]
+                board[end.getRow()-1][end.getCol()].removeNeighbor(board[end.getRow() - 1][end.getCol() - 1]);//[8,8] removes [8,7]
+            }else{
+                board[start.getRow()][start.getCol()].removeNeighbor(board[start.getRow()][start.getCol() - 1]);//[4,4] removes [4,3]
+                board[end.getRow()-1][end.getCol()].removeNeighbor(board[end.getRow() - 1][end.getCol() - 1]);//[5,4] removes [5,3]
             }
         }
     }
 
+    private  void wallTakeAway(Coordinate start, Coordinate end, Node[][] board){
+        System.out.println("Before taking a wall out: " + board[start.getRow()][start.getCol()]);
+        for(int i = 0; i < board[start.getRow()][start.getCol()].getNeighbors().size(); i++){
+            System.out.println(board[start.getRow()][start.getCol()].getNeighbors().get(i));
+        }
+        if (start.getRow() == end.getRow()){
+            if(start.getRow() == 0 && end.getRow() == 0){
+
+            }
+            else if (end.getCol() == 9){//start = [4,7] , end = [4,9]
+                board[start.getRow()][start.getCol()].addNeighbor(board[start.getRow() - 1][start.getCol()]);//[4,7] removes [3,7]
+                board[end.getRow()][end.getCol()-1].addNeighbor(board[end.getRow() - 1][end.getCol() - 1]);//[4,8] removes [3,8]
+            }
+            else{//start = [4,4] end = [4,6]
+                board[start.getRow()][start.getCol()].addNeighbor(board[start.getRow() - 1][start.getCol()]);//[4,4] removes [3,4]
+                board[end.getRow()][end.getCol()-1].addNeighbor(board[end.getRow() - 1][end.getCol() - 1]);//[4,5] removes [3,5]
+            }
+        }
+        //vertical
+        else if (start.getCol() == end.getCol()){
+            if(start.getCol() == 0){
+
+            }
+            else if (end.getRow() == 9){
+                board[start.getRow()][start.getCol()].addNeighbor(board[start.getRow()][start.getCol() - 1]);//[7,8] removes [7,7]
+                board[end.getRow()-1][end.getCol()].addNeighbor(board[end.getRow() - 1][end.getCol() - 1]);//[8,8] removes [8,7]
+            }else{
+                board[start.getRow()][start.getCol()].addNeighbor(board[start.getRow()][start.getCol() - 1]);//[4,4] removes [4,3]
+                board[end.getRow()-1][end.getCol()].addNeighbor(board[end.getRow() - 1][end.getCol() - 1]);//[5,4] removes [5,3]
+            }
+        }
+        System.out.println("taking a wall out: " + board[start.getRow()][start.getCol()]);
+        for(int i = 0; i < board[start.getRow()][start.getCol()].getNeighbors().size(); i++){
+            System.out.println(board[start.getRow()][start.getCol()].getNeighbors().get(i));
+        }
+    }
     @Override
     public void playerInvalidated(int i) {
 
@@ -156,6 +178,9 @@ public class QXH5696 implements PlayerModule {
      */
     @Override
     public int getID() {
+        Coordinate start = new Coordinate(8,4);
+        Coordinate finish = new Coordinate(7, 4);
+        System.out.println(getShortestPath(start, finish, board));
         return playerId;
     }
 
@@ -192,7 +217,19 @@ public class QXH5696 implements PlayerModule {
             return shortestPath;
         }
         List<Node> list = searchBFS(start, end);
-        Coordinate temp;
+        for (int i = 0; i < list.size(); i ++){
+            shortestPath.add(list.get(i).getLocation());
+        }
+        return shortestPath;
+    }
+
+    public List<Coordinate> getShortestPath(Coordinate start, Coordinate end, Node[][] board){
+        List<Coordinate> shortestPath = new ArrayList<Coordinate>();
+        if (start.equals(end)){
+            shortestPath.add(0, start);
+            return shortestPath;
+        }
+        List<Node> list = searchBFS(start, end, board);
         for (int i = 0; i < list.size(); i ++){
             shortestPath.add(list.get(i).getLocation());
         }
@@ -207,18 +244,6 @@ public class QXH5696 implements PlayerModule {
      */
     @Override
     public int getWallsRemaining(int i) {
-        if(!(playerHomes.containsKey(i))){
-            if (i == 1){
-                playerWalls.put(i, this.numWalls);
-            }
-            else if (i == 2){
-                playerWalls.put(i, this.numWalls);
-            }else if (i == 3){
-                playerWalls.put(i, this.numWalls);
-            }else if (i == 4){
-                playerWalls.put(i, this.numWalls);
-            }
-        }
         return playerWalls.get(i);
     }
 
@@ -229,19 +254,6 @@ public class QXH5696 implements PlayerModule {
      */
     @Override
     public Coordinate getPlayerLocation(int i) {
-        Coordinate coor;
-        if (!playerHomes.containsKey(i)) {
-            if (i == 2) {
-                coor = new Coordinate(0, 4);
-                this.playerHomes.put(i, coor);
-            } else if (i == 3) {
-                coor = new Coordinate(4, 0);
-                this.playerHomes.put(i, coor);
-            } else {
-                coor = new Coordinate(4, 8);
-                this.playerHomes.put(i, coor);
-            }
-        }
         return playerHomes.get(i);
     }
 
@@ -284,6 +296,42 @@ public class QXH5696 implements PlayerModule {
         while (!dispenser.isEmpty()) {
             Node current = dispenser.remove(0);
             if (current == finishNode) {
+                break;
+            }
+            // loop over all neighbors of current
+            for (Node nbr : current.getNeighbors()) {
+                // process unvisited neighbors
+                if(!predecessors.containsKey(nbr)) {
+                    predecessors.put(nbr, current);
+                    dispenser.add(nbr);
+                }
+            }
+        }
+
+        return constructPath(predecessors, startNode, finishNode);
+    }
+
+    private List<Node> searchBFS(Coordinate start, Coordinate finish, Node[][] board) {
+        // assumes input check occurs previously
+        Node startNode, finishNode;
+        startNode = board[start.getRow()][start.getCol()];
+        finishNode = board[finish.getRow()][finish.getCol()];
+
+        // prime the dispenser (queue) with the starting node
+        List<Node> dispenser = new LinkedList<Node>();
+        dispenser.add(startNode);
+
+        // construct the predecessors data structure
+        Map<Node, Node> predecessors = new HashMap<Node,Node>();
+        // put the starting node in, and just assign itself as predecessor
+        predecessors.put(startNode, startNode);
+
+        // loop until either the finish node is found, or the
+        // dispenser is empty (no path)
+        while (!dispenser.isEmpty()) {
+            Node current = dispenser.remove(0);
+            if (current == finishNode) {
+                System.out.println("BREAK DOWN");
                 break;
             }
             // loop over all neighbors of current
